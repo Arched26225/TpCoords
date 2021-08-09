@@ -1,0 +1,402 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local main2 = Instance.new("Frame")
+local Exit = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local CityPort1 = Instance.new("TextButton")
+local CityPort2 = Instance.new("TextButton")
+local IceMountain = Instance.new("TextButton")
+local Tornado = Instance.new("TextButton")
+local Volcano = Instance.new("TextButton")
+local _1BArea = Instance.new("TextButton")
+local _100BArea = Instance.new("TextButton")
+local _10TArea = Instance.new("TextButton")
+local Crystal = Instance.new("TextButton")
+local Rock = Instance.new("TextButton")
+local BlueStar = Instance.new("TextButton")
+local GreenStar = Instance.new("TextButton")
+local OrangeStar = Instance.new("TextButton")
+local _1MPsychic = Instance.new("TextButton")
+local _1BPsychic = Instance.new("TextButton")
+local _10TPsychic = Instance.new("TextButton")
+local _1QAPsychic = Instance.new("TextButton")
+local OpenCoords = Instance.new("TextButton")
+local UICorner = Instance.new("UICorner")
+
+--Properties:
+
+ScreenGui.Parent = game.CoreGui
+
+main2.Name = "main2"
+main2.Parent = ScreenGui
+main2.BackgroundColor3 = Color3.fromRGB(86, 0, 1)
+main2.Position = UDim2.new(0.143767059, 0, 0.29815951, 0)
+main2.Size = UDim2.new(0, 602, 0, 255)
+main2.Visible = true
+main2.Active = true
+main2.Draggable = true
+
+Exit.Name = "Exit"
+Exit.Parent = main2
+Exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Exit.Position = UDim2.new(0.939207911, 0, 0, 0)
+Exit.Size = UDim2.new(0, 36, 0, 31)
+Exit.Font = Enum.Font.SpecialElite
+Exit.Text = "X"
+Exit.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exit.TextSize = 14.000
+
+TextLabel.Parent = main2
+TextLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderColor3 = Color3.fromRGB(53, 0, 0)
+TextLabel.Size = UDim2.new(0, 565, 0, 31)
+TextLabel.Font = Enum.Font.SpecialElite
+TextLabel.Text = "Spam Coords"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+CityPort1.Name = "CityPort1"
+CityPort1.Parent = main2
+CityPort1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CityPort1.Position = UDim2.new(0.357142866, 0, 0.274509817, 0)
+CityPort1.Size = UDim2.new(0, 86, 0, 29)
+CityPort1.Font = Enum.Font.GothamBlack
+CityPort1.Text = "Port 1"
+CityPort1.TextColor3 = Color3.fromRGB(0, 0, 0)
+CityPort1.TextScaled = true
+CityPort1.TextSize = 14.000
+CityPort1.TextWrapped = true
+CityPort1.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(365, 250, -445) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+CityPort2.Name = "CityPort2"
+CityPort2.Parent = main2
+CityPort2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+CityPort2.Position = UDim2.new(0.511627913, 0, 0.274509847, 0)
+CityPort2.Size = UDim2.new(0, 86, 0, 29)
+CityPort2.Font = Enum.Font.GothamBlack
+CityPort2.Text = "Port 2"
+CityPort2.TextColor3 = Color3.fromRGB(0, 0, 0)
+CityPort2.TextScaled = true
+CityPort2.TextSize = 14.000
+CityPort2.TextWrapped = true
+CityPort2.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(349, 264, -490) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+IceMountain.Name = "IceMountain"
+IceMountain.Parent = main2
+IceMountain.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+IceMountain.Position = UDim2.new(0.672757506, 0, 0.274509847, 0)
+IceMountain.Size = UDim2.new(0, 86, 0, 29)
+IceMountain.Font = Enum.Font.GothamBlack
+IceMountain.Text = "Ice Mountain"
+IceMountain.TextColor3 = Color3.fromRGB(0, 0, 0)
+IceMountain.TextScaled = true
+IceMountain.TextSize = 14.000
+IceMountain.TextWrapped = true
+IceMountain.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1640, 259, 2244) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+Tornado.Name = "Tornado"
+Tornado.Parent = main2
+Tornado.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Tornado.Position = UDim2.new(0.837209284, 0, 0.274509847, 0)
+Tornado.Size = UDim2.new(0, 86, 0, 29)
+Tornado.Font = Enum.Font.GothamBlack
+Tornado.Text = "Tornado"
+Tornado.TextColor3 = Color3.fromRGB(0, 0, 0)
+Tornado.TextScaled = true
+Tornado.TextSize = 14.000
+Tornado.TextWrapped = true
+Tornado.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2307, 976, 1068) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+Volcano.Name = "Volcano"
+Volcano.Parent = main2
+Volcano.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Volcano.Position = UDim2.new(0.357142836, 0, 0.419607878, 0)
+Volcano.Size = UDim2.new(0, 86, 0, 29)
+Volcano.Font = Enum.Font.GothamBlack
+Volcano.Text = "Volcano"
+Volcano.TextColor3 = Color3.fromRGB(0, 0, 0)
+Volcano.TextScaled = true
+Volcano.TextSize = 14.000
+Volcano.TextWrapped = true
+Volcano.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2024, 714, -1860) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+_1BArea.Name = "1BArea"
+_1BArea.Parent = main2
+_1BArea.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1BArea.Position = UDim2.new(0.511627913, 0, 0.419607878, 0)
+_1BArea.Size = UDim2.new(0, 86, 0, 29)
+_1BArea.Font = Enum.Font.GothamBlack
+_1BArea.Text = "1B Area"
+_1BArea.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1BArea.TextScaled = true
+_1BArea.TextSize = 14.000
+_1BArea.TextWrapped = true
+_1BArea.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-254, 287, 980) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+_100BArea.Name = "100BArea"
+_100BArea.Parent = main2
+_100BArea.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_100BArea.Position = UDim2.new(0.671096444, 0, 0.419607878, 0)
+_100BArea.Size = UDim2.new(0, 86, 0, 29)
+_100BArea.Font = Enum.Font.GothamBlack
+_100BArea.Text = "100B Area"
+_100BArea.TextColor3 = Color3.fromRGB(0, 0, 0)
+_100BArea.TextScaled = true
+_100BArea.TextSize = 14.000
+_100BArea.TextWrapped = true
+_100BArea.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-271, 281, 991) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+_10TArea.Name = "10TArea"
+_10TArea.Parent = main2
+_10TArea.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_10TArea.Position = UDim2.new(0.837209344, 0, 0.419607878, 0)
+_10TArea.Size = UDim2.new(0, 86, 0, 29)
+_10TArea.Font = Enum.Font.GothamBlack
+_10TArea.Text = "10T Area"
+_10TArea.TextColor3 = Color3.fromRGB(0, 0, 0)
+_10TArea.TextScaled = true
+_10TArea.TextSize = 14.000
+_10TArea.TextWrapped = true
+_10TArea.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-279, 281, 1007) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+Crystal.Name = "Crystal"
+Crystal.Parent = main2
+Crystal.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Crystal.Position = UDim2.new(0.0348837227, 0, 0.329411775, 0)
+Crystal.Size = UDim2.new(0, 157, 0, 29)
+Crystal.Font = Enum.Font.GothamBlack
+Crystal.Text = "Crystal"
+Crystal.TextColor3 = Color3.fromRGB(0, 0, 0)
+Crystal.TextScaled = true
+Crystal.TextSize = 14.000
+Crystal.TextWrapped = true
+Crystal.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2279, 1943, 1053) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+Rock.Name = "Rock"
+Rock.Parent = main2
+Rock.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Rock.Position = UDim2.new(0.0348837227, 0, 0.184313715, 0)
+Rock.Size = UDim2.new(0, 157, 0, 29)
+Rock.Font = Enum.Font.GothamBlack
+Rock.Text = "Rock"
+Rock.TextColor3 = Color3.fromRGB(0, 0, 0)
+Rock.TextScaled = true
+Rock.TextSize = 14.000
+Rock.TextWrapped = true
+Rock.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(409, 271, 978) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+BlueStar.Name = "BlueStar"
+BlueStar.Parent = main2
+BlueStar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+BlueStar.Position = UDim2.new(0.0348837227, 0, 0.482352942, 0)
+BlueStar.Size = UDim2.new(0, 157, 0, 29)
+BlueStar.Font = Enum.Font.GothamBlack
+BlueStar.Text = "Blue Star"
+BlueStar.TextColor3 = Color3.fromRGB(0, 0, 0)
+BlueStar.TextScaled = true
+BlueStar.TextSize = 14.000
+BlueStar.TextWrapped = true
+BlueStar.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1176, 4789, -2293) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+GreenStar.Name = "GreenStar"
+GreenStar.Parent = main2
+GreenStar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GreenStar.Position = UDim2.new(0.0348837227, 0, 0.627451003, 0)
+GreenStar.Size = UDim2.new(0, 157, 0, 29)
+GreenStar.Font = Enum.Font.GothamBlack
+GreenStar.Text = "Green Star"
+GreenStar.TextColor3 = Color3.fromRGB(0, 0, 0)
+GreenStar.TextScaled = true
+GreenStar.TextSize = 14.000
+GreenStar.TextWrapped = true
+GreenStar.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(1381, 9274, 1647) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+OrangeStar.Name = "OrangeStar"
+OrangeStar.Parent = main2
+OrangeStar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OrangeStar.Position = UDim2.new(0.0348837078, 0, 0.772549033, 0)
+OrangeStar.Size = UDim2.new(0, 157, 0, 29)
+OrangeStar.Font = Enum.Font.GothamBlack
+OrangeStar.Text = "Orange Star"
+OrangeStar.TextColor3 = Color3.fromRGB(0, 0, 0)
+OrangeStar.TextScaled = true
+OrangeStar.TextSize = 14.000
+OrangeStar.TextWrapped = true
+OrangeStar.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-369, 15735, -9) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+_1MPsychic.Name = "1MPsychic"
+_1MPsychic.Parent = main2
+_1MPsychic.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1MPsychic.Position = UDim2.new(0.353820592, 0, 0.596078455, 0)
+_1MPsychic.Size = UDim2.new(0, 131, 0, 40)
+_1MPsychic.Font = Enum.Font.GothamBlack
+_1MPsychic.Text = "1M Zen Zone"
+_1MPsychic.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1MPsychic.TextScaled = true
+_1MPsychic.TextSize = 14.000
+_1MPsychic.TextWrapped = true
+_1MPsychic.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2527, 5486, -532) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+_1BPsychic.Name = "1BPsychic"
+_1BPsychic.Parent = main2
+_1BPsychic.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1BPsychic.Position = UDim2.new(0.639534891, 0, 0.596078455, 0)
+_1BPsychic.Size = UDim2.new(0, 131, 0, 40)
+_1BPsychic.Font = Enum.Font.GothamBlack
+_1BPsychic.Text = "1B Zen Zone"
+_1BPsychic.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1BPsychic.TextScaled = true
+_1BPsychic.TextSize = 14.000
+_1BPsychic.TextWrapped = true
+_1BPsychic.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2560, 5501, -439) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+_10TPsychic.Name = "10TPsychic"
+_10TPsychic.Parent = main2
+_10TPsychic.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_10TPsychic.Position = UDim2.new(0.353820592, 0, 0.772549033, 0)
+_10TPsychic.Size = UDim2.new(0, 131, 0, 40)
+_10TPsychic.Font = Enum.Font.GothamBlack
+_10TPsychic.Text = "10T Zen Zone"
+_10TPsychic.TextColor3 = Color3.fromRGB(0, 0, 0)
+_10TPsychic.TextScaled = true
+_10TPsychic.TextSize = 14.000
+_10TPsychic.TextWrapped = true
+_10TPsychic.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2582, 5516, -504) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+_1QAPsychic.Name = "1QAPsychic"
+_1QAPsychic.Parent = main2
+_1QAPsychic.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_1QAPsychic.Position = UDim2.new(0.639534831, 0, 0.772549033, 0)
+_1QAPsychic.Size = UDim2.new(0, 131, 0, 40)
+_1QAPsychic.Font = Enum.Font.GothamBlack
+_1QAPsychic.Text = "1QA Zen Zone"
+_1QAPsychic.TextColor3 = Color3.fromRGB(0, 0, 0)
+_1QAPsychic.TextScaled = true
+_1QAPsychic.TextSize = 14.000
+_1QAPsychic.TextWrapped = true
+Crystal.MouseButton1Down:connect(function()
+	while true do
+		game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-2557, 5416, -498) -- change coords dad uwu
+		wait(0.001)
+	end
+end)
+
+OpenCoords.Name = "Open Coords"
+OpenCoords.Parent = ScreenGui
+OpenCoords.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenCoords.Position = UDim2.new(-0.262458473, 0, 1.23076153, 0)
+OpenCoords.Size = UDim2.new(0, 133, 0, 32)
+OpenCoords.Font = Enum.Font.SourceSans
+OpenCoords.TextColor3 = Color3.fromRGB(0, 0, 0)
+OpenCoords.TextSize = 14.000
+
+UICorner.Parent = OpenCoords
+
+-- Scripts:
+
+local function VGFLFA_fake_script() -- Exit.LocalScript 
+	local script = Instance.new('LocalScript', Exit)
+
+	local frame = script.Parent.Parent
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		main2.Visible = false
+	end)
+end
+coroutine.wrap(VGFLFA_fake_script)()
+local function HPUFKP_fake_script() -- OpenCoords.LocalScript 
+	local script = Instance.new('LocalScript', OpenCoords)
+
+	local frame = script.Parent.Parent.main2
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		main2.Visible = true
+	end)
+end
+coroutine.wrap(HPUFKP_fake_script)()
